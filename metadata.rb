@@ -19,7 +19,7 @@ recipe 'openstack-block-storage::backup', 'Installs the cinder-backup service'
   supports os
 end
 
-depends 'apt', '~> 2.6.1'
+depends 'apt', '>= 2.7.0'
 depends 'openstack-common', '>= 11.5.0'
 depends 'openstack-identity', '>= 11.0.0'
 depends 'openstack-image', '>= 11.0.0'
